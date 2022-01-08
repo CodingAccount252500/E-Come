@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity10_AdminAddItem2">
+
+    <TextView
+        android:id="@+id/nametv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Available Colors"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:textColor="#130400"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/text3"
+        />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal">
+        <CheckBox
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User"
+
+            android:textStyle="bold"
+            android:textColor="#130400"
+            android:fontFamily="@font/text3"
+            app:buttonTint="#FF4C29"
+            android:layout_gravity="left"/>
+        <CheckBox
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+
+            android:textStyle="bold"
+
+            android:fontFamily="@font/text3"
+            android:textColor="#130400"
+            app:buttonTint="#FF4C29"
+            android:layout_gravity="right"
+
+            />
+        <CheckBox
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+
+            android:textStyle="bold"
+
+            android:fontFamily="@font/text3"
+            android:textColor="#130400"
+            app:buttonTint="#FF4C29"
+            android:layout_gravity="right"
+
+            />
+        <CheckBox
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+
+            android:textStyle="bold"
+
+            android:fontFamily="@font/text3"
+            android:textColor="#130400"
+            app:buttonTint="#FF4C29"
+            android:layout_gravity="right"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <CheckBox
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User"
+
+            android:textStyle="bold"
+            android:textColor="#130400"
+            android:fontFamily="@font/text3"
+            app:buttonTint="#FF4C29"
+            android:layout_gravity="left"/>
+        <CheckBox
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+
+            android:textStyle="bold"
+
+            android:fontFamily="@font/text3"
+            android:textColor="#130400"
+            app:buttonTint="#FF4C29"
+            android:layout_gravity="right"
+
+            />
+        <CheckBox
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+
+            android:textStyle="bold"
+
+            android:fontFamily="@font/text3"
+            android:textColor="#130400"
+            app:buttonTint="#FF4C29"
+            android:layout_gravity="right"
+
+            />
+        <CheckBox
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+
+            android:textStyle="bold"
+
+            android:fontFamily="@font/text3"
+            android:textColor="#130400"
+            app:buttonTint="#FF4C29"
+            android:layout_gravity="right"
+
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/nametv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sizing Group"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:textColor="#130400"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/text3"
+        />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/rd_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <CheckBox
+            android:id="@+id/userRadioButtonChooies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User"
+
+            android:textStyle="bold"
+            android:textColor="#130400"
+            android:fontFamily="@font/text3"
+            app:buttonTint="#FF4C29"
+            android:layout_gravity="left"/>
+        <CheckBox
+            android:id="@+id/AdminRadioButtonChooies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+
+            android:textStyle="bold"
+
+            android:fontFamily="@font/text3"
+            android:textColor="#130400"
+            app:buttonTint="#FF4C29"
+            android:layout_gravity="right"
+
+            />
+        <CheckBox
+            android:id="@+id/AdminRadioButtonChooies4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+
+            android:textStyle="bold"
+
+            android:fontFamily="@font/text3"
+            android:textColor="#130400"
+            app:buttonTint="#FF4C29"
+            android:layout_gravity="right"
+
+            />
+        <CheckBox
+            android:id="@+id/AdminRadioButtonChooies2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+
+            android:textStyle="bold"
+
+            android:fontFamily="@font/text3"
+            android:textColor="#130400"
+            app:buttonTint="#FF4C29"
+            android:layout_gravity="right"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/rd_group2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <CheckBox
+            android:id="@+id/userRadioButtonChooies5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User"
+
+            android:textStyle="bold"
+            android:textColor="#130400"
+            android:fontFamily="@font/text3"
+            app:buttonTint="#FF4C29"
+            android:layout_gravity="left"/>
+        <CheckBox
+            android:id="@+id/AdminRadioButtonChooies9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+
+            android:textStyle="bold"
+
+            android:fontFamily="@font/text3"
+            android:textColor="#130400"
+            app:buttonTint="#FF4C29"
+            android:layout_gravity="right"
+
+            />
+        <CheckBox
+            android:id="@+id/AdminRadioButtonChooies45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+
+            android:textStyle="bold"
+
+            android:fontFamily="@font/text3"
+            android:textColor="#130400"
+            app:buttonTint="#FF4C29"
+            android:layout_gravity="right"
+
+            />
+        <CheckBox
+            android:id="@+id/AdminRadioButtonChooies20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+
+            android:textStyle="bold"
+
+            android:fontFamily="@font/text3"
+            android:textColor="#130400"
+            app:buttonTint="#FF4C29"
+            android:layout_gravity="right"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="#130400"
+            android:fontFamily="@font/mmm"
+            android:layout_gravity="center_horizontal"
+
+            android:text="Save Item"
+            android:layout_marginTop="15sp"
+            android:textStyle="italic|bold"
+            app:bootstrapBrand="success"
+            app:bootstrapSize="xl"
+            app:buttonMode="regular"
+            app:roundedCorners="true"
+            app:showOutline="false" />
+
+    </LinearLayout>
+</LinearLayout>

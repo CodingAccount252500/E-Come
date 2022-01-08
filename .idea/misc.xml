@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/activity_main.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/activity_main_activity10_admin_add_item2.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/activity_main_activity10_admin_add_items2.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/activity_main_activity11_delivery_assigned_order.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/activity_main_activity12_delivery_finish_order.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/activity_main_activity13_user_category_list.xml" value="0.11594202898550725" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/activity_main_activity14_user_item_list.xml" value="0.11594202898550725" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/activity_main_activity15_item_info.xml" value="0.18" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/activity_main_activity16_user_cart_content.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/activity_main_activity17_user_send_order.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/activity_main_activity18_user_pay_for_order.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/activity_main_activity2_login.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/activity_main_activity3_create_account.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/activity_main_activity4_admin_main_page.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/activity_main_activity5_admin_mange_employee.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/activity_main_activity6_admin_mange_item.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/activity_main_activity7_admin_manage_orders.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/activity_main_activity8_admin_add_employee.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/activity_main_activity9_admin_add_item.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/cartcontent.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/employee.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/items.xml" value="0.18" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/orderdelivery.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/jasse/AndroidStudioProjects/ShababIn/app/src/main/res/layout/orderdesign.xml" value="0.17" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

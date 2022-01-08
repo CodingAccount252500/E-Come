@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="10dp"
+    tools:context=".MainActivity17_UserSendOrder">
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Order"
+        android:textSize="13pt"
+        android:textStyle="bold"
+        android:textColor="#ff6827"
+        android:fontFamily="@font/text3"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/nametv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:textColor="#130400"
+        android:fontFamily="@font/text3"
+        />
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:bootstrapSize="md"
+        app:bootstrapBrand="info"
+        android:inputType="text"
+        android:textColor="#130400"
+        android:id="@+id/addressField"
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Notes"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:fontFamily="@font/text3"
+        android:textColor="#130400"/>
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        app:bootstrapSize="md"
+        app:bootstrapBrand="info"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:textColor="#130400"
+        android:id="@+id/noteField"
+        />
+
+    <TextView
+        android:id="@+id/txt_sing_up_As"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Payment Way : "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15sp"
+        android:fontFamily="@font/text3"
+        android:textColor="#130400"
+        android:gravity="center_horizontal"/>
+    <RadioGroup
+        android:id="@+id/rd_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <RadioButton
+            android:id="@+id/RadioButtonChooies1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="On Reciving"
+            android:layout_marginLeft="30dp"
+            android:textStyle="bold"
+            android:onClick="ChooicePayment"
+            android:textColor="#130400"
+            android:fontFamily="@font/text3"
+            app:buttonTint="#FF4C29"
+            android:layout_gravity="left"/>
+        <RadioButton
+            android:id="@+id/RadioButtonChooies2"
+            android:layout_width="wrap_content"
+            android:onClick="ChooicePayment"
+            android:layout_height="wrap_content"
+            android:text="Pay Now"
+            android:layout_marginLeft="80dp"
+            android:textStyle="bold"
+
+            android:fontFamily="@font/text3"
+            android:textColor="#130400"
+            app:buttonTint="#FF4C29"
+            android:layout_gravity="right"
+
+            />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="#130400"
+            android:fontFamily="@font/mmm"
+            android:layout_gravity="center_horizontal"
+            android:onClick="StoreOrder"
+            android:text="Save And Continue"
+            android:layout_marginTop="15sp"
+            android:textStyle="italic|bold"
+            app:bootstrapBrand="success"
+            app:bootstrapSize="xl"
+            app:buttonMode="regular"
+            app:roundedCorners="true"
+            app:showOutline="false" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="13dp"
+    tools:context=".MainActivity18_UserPayForOrder">
+
+
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment"
+        android:textSize="13pt"
+        android:textStyle="bold"
+        android:textColor="#ff6827"
+        android:fontFamily="@font/text3"
+        android:gravity="center"/>
+
+
+
+
+    <TextView
+        android:id="@+id/nametv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:textColor="#130400"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/text3"
+        />
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bootstrapSize="md"
+        app:bootstrapBrand="info"
+        android:inputType="text"
+        android:textColor="#130400"
+        android:id="@+id/f1"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cvv2"
+        android:textSize="10pt"
+        android:textStyle="bold"
+
+        android:fontFamily="@font/text3"
+        android:textColor="#130400"/>
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bootstrapSize="md"
+        app:bootstrapBrand="info"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:textColor="#130400"
+        android:id="@+id/f2"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="expire Date :"
+        android:layout_marginTop="15dp"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:fontFamily="@font/text3"
+        android:textColor="#130400"/>
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/f3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bootstrapSize="md"
+        app:bootstrapBrand="info"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:textColor="#130400"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="#130400"
+            android:fontFamily="@font/mmm"
+            android:layout_gravity="center_horizontal"
+            android:onClick="PayAndSendOrder"
+            android:text="Pay Now"
+            android:layout_marginTop="15sp"
+            android:textStyle="italic|bold"
+            app:bootstrapBrand="success"
+            app:bootstrapSize="xl"
+            app:buttonMode="regular"
+            app:roundedCorners="true"
+            app:showOutline="false" />
+
+    </LinearLayout>
+</LinearLayout>

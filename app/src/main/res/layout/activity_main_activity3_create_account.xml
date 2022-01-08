@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="13dp"
+    tools:context=".MainActivity3_CreateAccount">
+
+
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registeration"
+        android:textSize="13pt"
+        android:textStyle="bold"
+        android:textColor="#ff6827"
+        android:fontFamily="@font/text3"
+        android:gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/restaurantprofile_image"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/person"
+            android:layout_marginRight="25dp"
+
+            app:civ_border_width="2dp"
+            android:layout_gravity="center_horizontal"
+            app:civ_border_color="#FF000000"/>
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/uploadProfileImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#130400"
+            android:text="Upload Image"
+            android:layout_gravity="center"
+            app:bootstrapSize="xl"
+            app:buttonMode="regular"
+            app:roundedCorners="true"
+            app:showOutline="false"
+            android:textStyle="bold|italic"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nametv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:textColor="#130400"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/text3"
+        />
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bootstrapSize="md"
+        app:bootstrapBrand="info"
+        android:inputType="text"
+        android:textColor="#130400"
+        android:id="@+id/newUserNameField"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textSize="10pt"
+        android:textStyle="bold"
+
+        android:fontFamily="@font/text3"
+        android:textColor="#130400"/>
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bootstrapSize="md"
+        app:bootstrapBrand="info"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:textColor="#130400"
+        android:id="@+id/newUserPhoneField"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email :"
+        android:layout_marginTop="15dp"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:fontFamily="@font/text3"
+        android:textColor="#130400"/>
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/newUserEmailField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bootstrapSize="md"
+        app:bootstrapBrand="info"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:textColor="#130400"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/text3"
+        android:textColor="#130400"/>
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/newUserPasswordField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bootstrapSize="md"
+        app:bootstrapBrand="info"
+
+        android:inputType="text"
+        android:textColor="#130400"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="#130400"
+            android:fontFamily="@font/mmm"
+            android:layout_gravity="center_horizontal"
+            android:onClick="OnSignUpButtonClicked"
+            android:text="Create Account"
+            android:layout_marginTop="15sp"
+            android:textStyle="italic|bold"
+            app:bootstrapBrand="success"
+            app:bootstrapSize="xl"
+            app:buttonMode="regular"
+            app:roundedCorners="true"
+            app:showOutline="false" />
+
+    </LinearLayout>
+</LinearLayout>

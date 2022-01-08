@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "802650810268",
+    "project_id": "shababin-dd0bd",
+    "storage_bucket": "shababin-dd0bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802650810268:android:9758dc9e40f1e305220a59",
+        "android_client_info": {
+          "package_name": "com.example.shababin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802650810268-thtgjr9bac9g13tnbn21r4anm6498obg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIpfEJ_Tl0vfpUkyFugIHCn3w0D9bfyP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802650810268-thtgjr9bac9g13tnbn21r4anm6498obg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
